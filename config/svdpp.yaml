@@ -1,0 +1,11 @@
+normalizer: [identity, paper, scientist]
+
+search_space:
+  k: [10, 20, 40]
+  reg: [0.02, 0.05]
+  lr: [0.005, 0.01]
+
+fixed_params:
+  n_epochs: 20
+  lr_decay: 1.0
+  seed: 42

@@ -1,0 +1,7 @@
+normalizer: [identity, paper, scientist]
+
+search_space:
+  k: [2, 5, 10, 20, 40]
+
+fixed_params:
+  fill: 3.0

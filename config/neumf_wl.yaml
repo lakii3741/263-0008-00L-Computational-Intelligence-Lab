@@ -1,0 +1,12 @@
+normalizer: identity
+
+search_space:
+  lr: [0.0001, 0.0005, 0.001, 0.005, 0.01]
+  embed_dim: [8, 16, 32, 64]
+
+fixed_params:
+  epochs: 10
+  batch_size: 8192
+  mlp_layers: [64, 32, 16, 8]
+  use_wishlist: true
+  seed: 42

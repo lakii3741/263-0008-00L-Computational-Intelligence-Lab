@@ -1,0 +1,16 @@
+.DS_Store
+.venv
+__pycache__
+*.pyc
+*.pyo
+plan.md
+submission.csv
+
+plan.md
+experimental-pred/
+logs/
+
+# Cython artifacts
+*.so
+*.c
+build/

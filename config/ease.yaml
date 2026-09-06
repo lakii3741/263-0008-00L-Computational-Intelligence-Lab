@@ -1,0 +1,8 @@
+predictor: ease
+
+search_space:
+  lam: [100.0, 300.0, 500.0, 1000.0]
+  shrink: [10.0, 25.0, 50.0]
+  use_bias: [True, False]
+
+fixed_params: {}

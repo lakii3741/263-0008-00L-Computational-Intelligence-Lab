@@ -1,0 +1,36 @@
+[project]
+name = "cil-project"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "cython>=3.2.4",
+    "ipykernel>=7.2.0",
+    "jupyter>=1.1.1",
+    "lenskit>=2026.1.0",
+    "matplotlib>=3.10.8",
+    "numba>=0.65.0",
+    "numpy",
+    "pandas",
+    "ray>=2.55.1",
+    "recbole>=1.2.0",
+    "scikit-learn>=1.8.0",
+    "scipy>=1.17.1",
+    "seaborn>=0.13.2",
+    "tabulate",
+    "torch>=2.11.0",
+]
+
+[build-system]
+requires = ["uv_build"]
+build-backend = "uv_build"
+
+[tool.uv.build-backend]
+module-name = "cil"
+module-root = ""
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.2.0",
+]

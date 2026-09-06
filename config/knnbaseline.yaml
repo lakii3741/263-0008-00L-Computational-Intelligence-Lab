@@ -1,0 +1,8 @@
+normalizer: identity
+
+search_space:
+  k: [10, 30, 50]
+  shrinkage: [50, 100]
+
+fixed_params: 
+  lamb_reg: 0.02

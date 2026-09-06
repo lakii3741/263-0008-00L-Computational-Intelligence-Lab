@@ -1,0 +1,7 @@
+normalizer: [identity, paper, scientist]
+
+search_space:
+  k: [10, 20, 30, 40, 50]
+  shrinkage: [25.0, 50.0, 100.0]
+
+fixed_params: {}
